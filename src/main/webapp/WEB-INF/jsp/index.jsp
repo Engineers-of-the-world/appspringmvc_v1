@@ -9,5 +9,9 @@
     </head>
     <body>          
         <p>Bienvenidos a SPRING MVC</p>
+        <form action="persona" method="POST">
+            <input type="text" name="f_name" value="${name}"/>
+            <input type="submit" value="Ok"/>
+        </form> 
     </body>
 </html>
